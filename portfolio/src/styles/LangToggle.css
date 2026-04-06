@@ -1,0 +1,39 @@
+.lang-toggle-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  z-index: 1000;
+  border: 1px solid #00ffcc44; /* Borde sutil alrededor */
+}
+
+.lang-btn {
+  background-color: #0a0a0a; /* Fondo oscuro */
+  color: #555; /* Texto apagado por defecto */
+  border: 2px solid #333;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace; /* Fuente técnica */
+  font-weight: bold;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+/* El botón activo (como el ES de tu foto) */
+.lang-btn.active {
+  background-color: #00ffcc; /* Color Cian brillante */
+  color: #000;
+  border-color: #00ffcc;
+  box-shadow: 0 0 10px #00ffcc; /* Efecto resplandor */
+}
+
+/* Efecto al pasar el mouse por los no activos */
+.lang-btn:not(.active):hover {
+  border-color: #00ffcc;
+  color: #00ffcc;
+}
+
+/* Ajuste para que se vean pegados como en la imagen */
+.lang-btn:first-child {
+  border-right: none;
+}
