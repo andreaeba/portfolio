@@ -63,6 +63,21 @@
   max-width: 580px;
 }
 
+.experience-links {
+   font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--cyan);
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: gap 0.2s;
+}
+
+.experience-links:hover { gap: 0.7rem; }
+
 @media (max-width: 900px) {
   .experience { padding: 5rem 2rem; }
 }

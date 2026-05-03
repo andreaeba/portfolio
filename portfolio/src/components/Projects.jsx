@@ -37,7 +37,6 @@ const projects = [
     },
     stack: ['Java', 'Spring Boot', 'Spring Security', 'JPA/Hibernate', 'Thymeleaf', 'MySQL'],
     links: [
-      { label: 'Demo →', href: 'https://github.com/andreaeba/biblioteca' },
       { label: 'GitHub →', href: 'https://github.com/andreaeba/biblioteca' },
     ],
   },
@@ -50,7 +49,6 @@ const projects = [
     },
     stack: ['React', 'HTML5', 'CSS3'],
     links: [
-      { label: 'Demo →', href: 'https://github.com/andreaeba/todo-app' },
       { label: 'GitHub →', href: 'https://github.com/andreaeba/todo-app' },
     ],
   },
@@ -76,8 +74,8 @@ const projects = [
     },
     stack: ['JavaScript', 'HTML5', 'CSS3'],
     links: [
-      { label: 'Demo →', href: 'https://andreaeba.github.io/job-finder-app/' },
-      { label: 'GitHub →', href: 'https://github.com/andreaeba/job-finder-app' },
+      { label: 'Demo →', href: 'https://andreaeba.github.io/editor-de-memes/' },
+      { label: 'GitHub →', href: 'https://github.com/andreaeba/editor-de-memes' },
     ],
   },
 ]

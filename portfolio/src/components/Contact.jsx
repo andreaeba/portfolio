@@ -6,16 +6,15 @@ const t = {
   pre:   { es: '// let\'s work together', en: '// let\'s work together' },
   title: { es: '¿Hablamos?',             en: "Let's talk?" },
   sub: {
-    es: 'Estoy buscando mi primera oportunidad como Fullstack Developer. Si tenés un proyecto interesante o una posición abierta, escribime.',
-    en: "I'm looking for my first opportunity as a Fullstack Developer. If you have an interesting project or an open position, reach out.",
+    es: 'Estoy buscando oportunidades como Fullstack Developer. Si tenés un proyecto interesante o una posición abierta, escribime.',
+    en: "I'm looking for opportunities as a Fullstack Developer. If you have an interesting project or an open position, reach out.",
   },
 }
 
 const socials = [
   { label: 'GitHub',    href: 'https://github.com/andreaeba' },
-  { label: 'LinkedIn',  href: 'https://www.linkedin.com/in/andreaeba/' },
-  { label: 'Twitter/X', href: 'https://www.twitter.com/andreeeae' },
-]
+  { label: 'LinkedIn',  href: 'https://www.linkedin.com/in/andrea-bermudez-alvarez/' },
+  ]
 
 export default function Contact() {
   const { lang } = useLang()

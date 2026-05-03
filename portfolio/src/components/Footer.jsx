@@ -1,3 +1,3 @@
 export default function Footer() {
-  return <footer>Mi Portfolio</footer>;
+  return <footer>2026 Andrea Bermúdez®️</footer>;
 }
