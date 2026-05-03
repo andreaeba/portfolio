@@ -8,6 +8,8 @@ export default function Cursor() {
   const my = useRef(0)
   const rx = useRef(0)
   const ry = useRef(0)
+  const isMobile = window.matchMedia("(max-width: 768px)").matches;
+
 
   useEffect(() => {
     const onMove = (e) => {
@@ -51,6 +53,8 @@ export default function Cursor() {
       cancelAnimationFrame(frame)
     }
   }, [])
+
+  if (isMobile) return null;
 
   return (
     <>
